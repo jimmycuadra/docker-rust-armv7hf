@@ -9,5 +9,5 @@ For an x86_64 version of this image, see https://github.com/jimmycuadra/docker-r
 The following command will drop you into a Bash shell with the current directory on the host shared. From there you can run `rustc`, `rustdoc`, and `cargo` as you please.
 
 ``` bash
-docker run -it --rm -v $(pwd):/source jimmycuadra/rust
+docker run -it --rm -v $(pwd):/source jimmycuadra/rust-armv7hf
 ```
